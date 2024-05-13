@@ -1,0 +1,73 @@
+name: ndisparticipant
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+
+  simple_tooltip:
+  shared_preferences:
+  equatable:
+  bloc:
+  flutter_bloc:
+  http:
+  flutter_flavor:
+  url_launcher:
+  flutter_phoenix:
+  webview_flutter:
+  simple_ripple_animation:
+  marquee:
+  fluttertoast:
+  badges:
+  flutter_datetime_picker_plus:
+  month_year_picker:
+  time_machine:
+  image_picker:
+  geocoding:
+  cached_network_image:
+  carousel_slider:
+  otp_text_field:
+  dots_indicator:
+  loading_overlay_pro:
+  flutter_widget_from_html:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints:
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Thin-250.ttf
+        - asset: assets/fonts/Poppins-SemiBold-600.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Regular-400.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium-500.ttf
+          weight: 500
+          style: normal
+
+
+flutter_intl:
+  enabled: true
+  class_name: Strings
+  main_locale: en
